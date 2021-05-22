@@ -712,7 +712,7 @@ li.menu-item-chirden>a::before{
     position: relative;
 }
 .btn-prev::before {
-    background-image: url(/img/arrow-left.svg);
+    background-image: url(../img/arrow-left.svg);
     content: " ";
     width: 8px;
     height: 14px;
@@ -722,7 +722,7 @@ li.menu-item-chirden>a::before{
     transform: translate(-50%, -50%);
 }
 .btn-next::before{
-    background-image: url(/img/arrow-right.svg);
+    background-image: url(../img/arrow-right.svg);
     content: "";
     width: 8px;
     height: 14px;
@@ -771,7 +771,7 @@ li.menu-item-chirden>a::before{
 }
 .main-seven-1 {
     display: inline-block;
-    /* background: url(/img/bg-mask.png) contain; */
+    /* background: url(../img/bg-mask.png) contain; */
     background-color: #f26a1b;
     box-sizing: border-box;   
     padding-bottom: 100px;
