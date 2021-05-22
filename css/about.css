@@ -8,7 +8,7 @@
 }
 /* banner */
 .banner {
-  background: url(/img/WRL_0365-e-scaled.jpg) no-repeat;
+  background: url(../img/WRL_0365-e-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -91,7 +91,7 @@
 }
 
 span.caret::before {
-  background-image: url(/img/arrow-right.svg);
+  background-image: url(../img/arrow-right.svg);
   content: "";
   position: absolute;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ span.caret::before {
 }
 /* ourstory */
 .banner1 {
-  background: url(/img/WRL_6475-e-scaled.jpg) no-repeat;
+  background: url(../img/WRL_6475-e-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -180,7 +180,7 @@ span.caret::before {
 }
 /* intergrated */
 .banner2 {
-  background: url(/img/Integrated-Business.jpg) no-repeat;
+  background: url(../img/Integrated-Business.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -219,7 +219,7 @@ span.caret::before {
 }
 /* intercontinental */
 .banner3 {
-  background: url(/img/banner-presence.jpg) no-repeat;
+  background: url(../img/banner-presence.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -268,7 +268,7 @@ input[type="submit"]:hover {
 /* brands&products */
 /* overview */
 .banner4 {
-  background: url(/img/Products-Banner.png) no-repeat;
+  background: url(../img/Products-Banner.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -435,7 +435,7 @@ button {
 }
 /* brand */
 .banner5 {
-  background: url(/img/íá¡Ñα-»α«ñ-scaled.jpg) no-repeat;
+  background: url(../img/íá¡Ñα-»α«ñ-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -464,7 +464,7 @@ button {
   }
   /* biodiesel */
   .banner6 {
-    background: url(/img/Biodiesel-Banner-1-scaled.jpg) no-repeat;
+    background: url(../img/Biodiesel-Banner-1-scaled.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -487,7 +487,7 @@ button {
 }
 /* bleaching earth */
 .banner7 {
-  background: url(/img/Bleaching-Earth-Banner.png) no-repeat;
+  background: url(../img/Bleaching-Earth-Banner.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -497,7 +497,7 @@ button {
 }
 /* bypass fats */
   .banner8 {
-    background: url(/img/animal-feed.jpg) no-repeat;
+    background: url(../img/animal-feed.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 450px;
@@ -508,7 +508,7 @@ button {
 
 /* COMMODITIES */
 .banner9 {
-  background: url(/img/commodity.jpg) no-repeat;
+  background: url(../img/commodity.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -520,7 +520,7 @@ button {
 
 /* cooking oil */
 .banner10 {
-  background: url(/img/Cooking-oil.jpg) no-repeat;
+  background: url(../img/Cooking-oil.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -530,7 +530,7 @@ button {
 }
 /* EMULSIFIER – STABILIZER BLENDS */
 .banner11 {
-  background: url(/img/Emulsifier-Stabilizer-Blends-scaled.jpg) no-repeat;
+  background: url(../img/Emulsifier-Stabilizer-Blends-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -541,7 +541,7 @@ button {
 
 /* EMULSIFIERS */
 .banner12 {
-  background: url(/img/Emulsifiers-Banner-scaled.jpg) no-repeat;
+  background: url(../img/Emulsifiers-Banner-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -551,7 +551,7 @@ button {
 }
 /* esters */
 .banner13 {
-  background: url(/img/functional-product.jpg) no-repeat;
+  background: url(../img/functional-product.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -561,7 +561,7 @@ button {
 }
 /* fatty acids */
 .banner14 {
-  background: url(/img/oleochemical.jpg) no-repeat;
+  background: url(../img/oleochemical.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -571,7 +571,7 @@ button {
 }
 /* FATTY ALCOHOLS */
 .banner15 {
-  background: url(/img/Fatty-Alcohol.png) no-repeat;
+  background: url(../img/Fatty-Alcohol.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -581,7 +581,7 @@ button {
 }
 /* HOUSEHOLD PRODUCTS */
 .banner16 {
-  background: url(/img/banner_hp1.jpg) no-repeat;
+  background: url(../img/banner_hp1.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -591,7 +591,7 @@ button {
 }
 /* MARGARINE/SHORTENING */
 .banner17 {
-  background: url(/img/Margarine-Banner-scaled.jpg) no-repeat;
+  background: url(../img/Margarine-Banner-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -601,7 +601,7 @@ button {
 }
 /* MEDIUM-CHAIN TRIGLYCERIDES */
 .banner18 {
-  background: url(/img/MCT-Banner-scaled.jpg) no-repeat;
+  background: url(../img/MCT-Banner-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -611,7 +611,7 @@ button {
 }
 /* palm oil */
 .banner19 {
-  background: url(/img/palm-wax.jpg) no-repeat;
+  background: url(../img/palm-wax.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -621,7 +621,7 @@ button {
 }
 /* REFINED GLYCERINE */
 .banner20 {
-  background: url(/img/Refined-Glycerine-Banner.png) no-repeat;
+  background: url(../img/Refined-Glycerine-Banner.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -631,7 +631,7 @@ button {
 }
 /* SOAP / SKIN CARE / HYGIENE PRODUCTS */
 .banner21 {
-  background: url(/img/Soap-Skin-Care-Hygiene-Banner.png) no-repeat;
+  background: url(../img/Soap-Skin-Care-Hygiene-Banner.png) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -641,7 +641,7 @@ button {
 }
 /* SOAP NOODLES */
 .banner22 {
-  background: url(/img/Banner-2-2.jpg) no-repeat;
+  background: url(../img/Banner-2-2.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -651,7 +651,7 @@ button {
 }
 /* SPECIALTY APPLICATION OILS */
 .banner23{
-  background: url(/img/depositphotos_61171041-stock-photo-palm-oil-fruits.jpg) no-repeat;
+  background: url(../img/depositphotos_61171041-stock-photo-palm-oil-fruits.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -661,7 +661,7 @@ button {
 }
 /* career */
 .banner24{
-  background: url(/img/Musim-Mas-International.jpg) no-repeat;
+  background: url(../img/Musim-Mas-International.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -671,7 +671,7 @@ button {
 }
 /* NEWSROOM */
 .banner25{
-  background: url(/img/DSC00475_edited-scaled.jpg) no-repeat;
+  background: url(../img/DSC00475_edited-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -723,7 +723,7 @@ button {
 }
 /* SUSTAINABILITY */
 .banner26{
-  background: url(/img/sustainability.jpg) no-repeat;
+  background: url(../img/sustainability.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -733,7 +733,7 @@ button {
 }
 /* NDPE POLICY */
 .banner27{
-  background: url(/img/NDPE-Policy.jpg) no-repeat;
+  background: url(../img/NDPE-Policy.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -743,7 +743,7 @@ button {
 }
 /* NDPE Implementation */
 .banner28{
-  background: url(/img/NDPE-Compliance-Strategy.jpg) no-repeat;
+  background: url(../img/NDPE-Compliance-Strategy.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -753,7 +753,7 @@ button {
 }
 /* NDPE ROADMAP */
 .banner29{
-  background: url(/img/banner-about.jpg) no-repeat;
+  background: url(../img/banner-about.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -763,7 +763,7 @@ button {
 }
 /* own supply */
 .banner30{
-  background: url(/img/own-supply.jpg) no-repeat;
+  background: url(../img/own-supply.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -773,7 +773,7 @@ button {
 }
 /* SMALLHOLDERS */
 .banner31{
-  background: url(/img/smallholder-2.jpg) no-repeat;
+  background: url(../img/smallholder-2.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -784,7 +784,7 @@ button {
 
 /* THIRD-PARTY SUPPLIERS */
 .banner32{
-  background: url(/img/thirdpartysupplier.jpg) no-repeat;
+  background: url(../img/thirdpartysupplier.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -794,7 +794,7 @@ button {
 }
 /* GRIEVANCES */
 .banner33{
-  background: url(/img/Grievance-1-scaled.jpg) no-repeat;
+  background: url(../img/Grievance-1-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -804,7 +804,7 @@ button {
 }
 /* TRACEABILITY */
 .banner34{
-  background: url(/img/IMG_2595-scaled.jpg) no-repeat;
+  background: url(../img/IMG_2595-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -814,7 +814,7 @@ button {
 }
 /* LANDSCAPE */
 .banner35{
-  background: url(/img/Landscape-Approach-1.jpg) no-repeat;
+  background: url(../img/Landscape-Approach-1.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -824,7 +824,7 @@ button {
 }
 /* ENVIRONMENTAL */
 .banner36{
-  background: url(/img/Rainforest-Sustainability-1.jpg) no-repeat;
+  background: url(../img/Rainforest-Sustainability-1.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -834,7 +834,7 @@ button {
 }
 /* LABOUR AND HUMAN RIGHTS */
 .banner37{
-  background: url(/img/MG_7023-2-scaled.jpg) no-repeat;
+  background: url(../img/MG_7023-2-scaled.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;
@@ -844,7 +844,7 @@ button {
 }
 /* PARTNERSHIPS & COLLABORATION */
 .banner38{
-  background: url(/img/Landscape-Collaboration-2.jpg) no-repeat;
+  background: url(../img/Landscape-Collaboration-2.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   height: 450px;

@@ -27,26 +27,45 @@
 //   dots1[slideIndex1-1].className += " active";
 // }
 
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 var slideIndex1 = 0;
 showSlidesvideo();
 
-
 function showSlidesvideo() {
-    var i;
-    var slides1 = document.getElementsByClassName("slide-item");
-    var dots1 = document.getElementsByClassName("dot1");
-    for (i = 0; i < slides1.length; i++) {
-      slides1[i].style.display = "none";  
-    }
-    slideIndex1++;
-    if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
-    for (i = 0; i < dots1.length; i++) {
-      dots1[i].className = dots1[i].className.replace(" active", "");
-    }
-    slides1[slideIndex1-1].style.display = "block";  
-    dots1[slideIndex1-1].className += " active";
-    setTimeout(showSlidesvideo, 5500); // Change image every 2 seconds
+  var i;
+  var slides1 = document.getElementsByClassName("slide-item");
+  var dots1 = document.getElementsByClassName("dot1");
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
   }
+  slideIndex1++;
+  if (slideIndex1 > slides1.length) {slideIndex1 = 1}    
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active";
+  setTimeout(showSlidesvideo, 5500); // Change image every 2 seconds
+}
 //section-four showslide
 var slideIndex2 = 0;
 sectionSlides();
@@ -70,25 +89,7 @@ function sectionSlides() {
 
 
 
-//Get the button
-var mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
 // trinh chieu tu dong 
 var slideIndex = 0;
 showSlides();
