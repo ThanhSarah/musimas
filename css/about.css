@@ -1,0 +1,854 @@
+@font-face {
+  font-family: DroidSerif;
+  src: url(/font/DroidSerif-Bold.ttf);
+}
+@font-face {
+  font-family: DroidSerif_italic;
+  src: url(/font/DroidSerif-Italic.ttf);
+}
+/* banner */
+.banner {
+  background: url(/img/WRL_0365-e-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+.text {
+  position: absolute;
+  bottom: 0%;
+  margin: 20px;
+  left: 40px;
+}
+/* content */
+.about-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24% 76%;
+  justify-content: space-between;
+  margin: 0 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+/* slidenav */
+.slidenav {
+  background-color: #f2bd1d;
+  height: max-content;
+  padding: 50px 20px;
+  z-index: 1;
+  font-family: "DroidSerif", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.slidenav a,
+.dropdown-btn {
+  display: block;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 22px;
+  background: none;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+.sidenav a:hover,
+.dropdown-btn:hover {
+  text-decoration: underline;
+}
+.active {
+  background-color: green;
+  color: white;
+  z-index: 1;
+}
+.caret {
+  transform: rotate(180deg);
+}
+.dropdown-container {
+  display: none;
+  line-height: 22px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 22px;
+}
+.dropdown-container a {
+  padding: 8px;
+}
+.dropdown-container a:hover {
+  text-decoration: underline;
+}
+.fa-angle-down {
+  float: right;
+  padding: 3px 35px;
+}
+
+span.caret::before {
+  background-image: url(/img/arrow-right.svg);
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  display: inline;
+  width: 10px;
+  height: 12px;
+  left:85%;
+  top: 30%;
+  box-sizing: border-box;
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  transform: rotate(90deg);
+  transition: all 0.3s;
+}
+
+/* content-text */
+.content-text {
+  margin: 70px 0 300px 100px;
+}
+.content-text .intro1 {
+  width: 100%;
+  font-family: "DroidSerif_italic", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 29px;
+  color: #797979;
+}
+.content-text p {
+  font-family: "Agenda-MediumCondensed", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+  color: #797979;
+}
+.vision {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 80%;
+}
+.vision .img-2 {
+  position: absolute;
+  top: 90%;
+  left: 20%;
+  width: 376px;
+  height: 212px;
+}
+.vision-text {
+  box-sizing: border-box;
+  padding: 30px;
+}
+/* ourstory */
+.banner1 {
+  background: url(/img/WRL_6475-e-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* globalprecense */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid;
+}
+.tooltip .tooltiptext {
+  position: absolute;
+  visibility: hidden;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  border: 1px solid #797979;
+  font-size: 12px;
+  box-shadow: #666666 0px 0px 20px;
+  width: 300px;
+  min-width: min-content;
+  height: auto;
+  
+  z-index: 2;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* intergrated */
+.banner2 {
+  background: url(/img/Integrated-Business.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+.pannel {
+  margin: 2px 0;
+}
+.pannel-title {
+  position: relative;
+  background-color: #1e4303;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  box-sizing: border-box;
+}
+.pannel-img {
+  color: #f2bd1d;
+}
+
+.pannel-text #pannel-text {
+  position: absolute;
+  display: none;
+}
+
+.pannel-active {
+  transform: rotate(180deg);
+}
+.pannel-title .fa-angle-down {
+  float: right;
+  padding: 3px 0;
+}
+/* intercontinental */
+.banner3 {
+  background: url(/img/banner-presence.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 50%; /* Full width */
+  min-width: max-content;
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #ccc;
+  padding: 12px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* brands&products */
+/* overview */
+.banner4 {
+  background: url(/img/Products-Banner.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+input[type="text1"],
+input[type="email1"],
+input[type="number1"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  min-width: max-content;
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit1"] {
+  width: 20%;
+  background-color: #04423a;
+  padding: 12px 20px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit1"]:hover {
+  background-color: #45a049;
+}
+.pannel-list a{
+  box-sizing: border-box;
+
+}
+.pannel-list a:hover{
+ text-decoration: underline;
+  
+}
+.overview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+}
+.overview-img {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 160px;
+  display: inline-block;
+}
+.overview .pannel-text a {
+  display: block;
+  color: #ffffff;
+  padding: 0 10px;
+}
+.overview-text .pannel-text {
+  border-radius: 5px;
+  border: 1px solid #797979;
+  background-color: #04423a;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.overview-item {
+  margin: 15px;
+}
+.overview-text .pannel-title {
+  background-color: #04423a;
+  padding: 5px 10px;
+  font-size: 16px;
+  top: 17px;
+  border: 1px solid #797979;
+  border-radius: 5px;
+}
+.overview-text h3{
+  height: 50px;
+  margin-bottom: 0%;
+ }
+.overview-text p{
+ height: 130px;
+ margin: 0%;
+}
+.overview .pannel-img {
+  color: #ffffff;
+}
+
+img {
+  /* display: block; */
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+
+
+button {
+  cursor: pointer;
+}
+
+.dropdown2 {
+  width: 100%;
+  position: relative;
+  border-radius: 8px;
+}
+.dropdown-caret {
+  padding: 0%;
+}
+.dropdown-select {
+  background-color: #04423a;
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.dropdown-select * {
+  pointer-events: none;
+}
+.dropdown-list {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  right: 0;
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #04423a;
+  border-radius: 8px;
+  display: none;
+}
+.dropdown-list:before {
+  content: "";
+  height: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  transform: translateY(-100%);
+}
+.dropdown-list.show {
+  display: block;
+}
+.dropdown-item2 {
+  padding: 8px;
+  transition: all 0.25s ease;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dropdown-item2 a {
+    color: #ffffff;
+}
+.dropdown-item2:hover {
+  background-color:#09574c;
+}
+/* brand */
+.banner5 {
+  background: url(/img/íá¡Ñα-»α«ñ-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+.paging-nav {
+    text-align:right;
+    padding-top:15px;
+  }
+   
+  .paging-nav a {
+    margin:auto 1px;
+    text-decoration:none;
+    display: inline-block;
+    padding:5px 10px;
+    background: transparent;
+    border: 1px solid #f2bd1d;
+    color:#f2bd1d;
+    border-radius:3px;
+  }
+  .paging-nav .selected-page {
+    background:#f28706;
+    font-weight:bold;
+  }
+  /* biodiesel */
+  .banner6 {
+    background: url(/img/Biodiesel-Banner-1-scaled.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    min-width: max-content;
+    position: relative;
+    box-sizing: border-box;
+  }
+.iconcircle li {
+  position: relative;
+  } 
+.iconcircle p::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 10px;
+  left: -25px;
+  border-radius: 50px;
+  background-color: #f28705;
+}
+/* bleaching earth */
+.banner7 {
+  background: url(/img/Bleaching-Earth-Banner.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* bypass fats */
+  .banner8 {
+    background: url(/img/animal-feed.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    min-width: max-content;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+/* COMMODITIES */
+.banner9 {
+  background: url(/img/commodity.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+
+
+/* cooking oil */
+.banner10 {
+  background: url(/img/Cooking-oil.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* EMULSIFIER – STABILIZER BLENDS */
+.banner11 {
+  background: url(/img/Emulsifier-Stabilizer-Blends-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* EMULSIFIERS */
+.banner12 {
+  background: url(/img/Emulsifiers-Banner-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* esters */
+.banner13 {
+  background: url(/img/functional-product.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* fatty acids */
+.banner14 {
+  background: url(/img/oleochemical.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* FATTY ALCOHOLS */
+.banner15 {
+  background: url(/img/Fatty-Alcohol.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* HOUSEHOLD PRODUCTS */
+.banner16 {
+  background: url(/img/banner_hp1.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* MARGARINE/SHORTENING */
+.banner17 {
+  background: url(/img/Margarine-Banner-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* MEDIUM-CHAIN TRIGLYCERIDES */
+.banner18 {
+  background: url(/img/MCT-Banner-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* palm oil */
+.banner19 {
+  background: url(/img/palm-wax.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* REFINED GLYCERINE */
+.banner20 {
+  background: url(/img/Refined-Glycerine-Banner.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* SOAP / SKIN CARE / HYGIENE PRODUCTS */
+.banner21 {
+  background: url(/img/Soap-Skin-Care-Hygiene-Banner.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* SOAP NOODLES */
+.banner22 {
+  background: url(/img/Banner-2-2.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* SPECIALTY APPLICATION OILS */
+.banner23{
+  background: url(/img/depositphotos_61171041-stock-photo-palm-oil-fruits.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* career */
+.banner24{
+  background: url(/img/Musim-Mas-International.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* NEWSROOM */
+.banner25{
+  background: url(/img/DSC00475_edited-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+.newsroom-content{
+  margin: 100px 200px;
+  box-sizing: border-box;
+
+}
+.newsroom-select form{
+  display: flex;
+  flex-direction: row; 
+  gap: 20px;
+}
+.newsroom-img {
+  margin: 15px 0;
+  overflow: hidden;
+  height: 165px;
+  transition: transform .2s;
+}
+.newsroom-img:hover img{
+  transform: scale(1.2);
+}
+.newsroom-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.newsroom-item{
+  width: 250px;
+  padding: 20px;
+  margin: 20px 0;
+  height: 361px;
+  overflow: hidden;
+  background-color: #F8F7F3;
+  color: black;
+
+}
+.btn-newsroom{
+  background-color: #1e4303;
+  border: none;
+}
+.btn-newsroom:hover{
+  background-color: #04423a;
+  border: none;
+  color: #ffffff;
+}
+/* SUSTAINABILITY */
+.banner26{
+  background: url(/img/sustainability.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* NDPE POLICY */
+.banner27{
+  background: url(/img/NDPE-Policy.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* NDPE Implementation */
+.banner28{
+  background: url(/img/NDPE-Compliance-Strategy.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* NDPE ROADMAP */
+.banner29{
+  background: url(/img/banner-about.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* own supply */
+.banner30{
+  background: url(/img/own-supply.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* SMALLHOLDERS */
+.banner31{
+  background: url(/img/smallholder-2.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* THIRD-PARTY SUPPLIERS */
+.banner32{
+  background: url(/img/thirdpartysupplier.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* GRIEVANCES */
+.banner33{
+  background: url(/img/Grievance-1-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* TRACEABILITY */
+.banner34{
+  background: url(/img/IMG_2595-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* LANDSCAPE */
+.banner35{
+  background: url(/img/Landscape-Approach-1.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* ENVIRONMENTAL */
+.banner36{
+  background: url(/img/Rainforest-Sustainability-1.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* LABOUR AND HUMAN RIGHTS */
+.banner37{
+  background: url(/img/MG_7023-2-scaled.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
+/* PARTNERSHIPS & COLLABORATION */
+.banner38{
+  background: url(/img/Landscape-Collaboration-2.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  min-width: max-content;
+  position: relative;
+  box-sizing: border-box;
+}
