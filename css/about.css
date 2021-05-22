@@ -1,10 +1,10 @@
 @font-face {
   font-family: DroidSerif;
-  src: url(/font/DroidSerif-Bold.ttf);
+  src: url(../font/DroidSerif-Bold.ttf);
 }
 @font-face {
   font-family: DroidSerif_italic;
-  src: url(/font/DroidSerif-Italic.ttf);
+  src: url(../font/DroidSerif-Italic.ttf);
 }
 /* banner */
 .banner {
